@@ -1,12 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Blender-Style Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is my first personal webpage hosted on GitHub Pages.</p>
+    <div class="sidebar">
+        <h2>Blender Manual</h2>
+        <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li class="dropdown">
+                <a href="#">入门</a>
+                <ul class="submenu">
+                    <li><a href="about.html">关于 Blender</a></li>
+                    <li><a href="install.html">安装 Blender</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">功能</a>
+                <ul class="submenu">
+                    <li><a href="ui.html">用户界面</a></li>
+                    <li><a href="editors.html">编辑器</a></li>
+                    <li><a href="sculpt.html">雕刻 & 绘画</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>欢迎来到 Blender 4.3 参考手册</h1>
+        <p>这是一个静态网站示例，带有一个类似 Blender 文档的导航侧边栏。</p>
+    </div>
 </body>
 </html>
