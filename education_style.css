@@ -13,8 +13,38 @@
   position: relative;
 }
 
-.desktop .side-bar {
+.desktop .rectangle {
+  top: 66px;
+  left: 287px;
   position: absolute;
+  width: 878px;
+  height: 158px;
+  background-color: #d9d9d9;
+  border-radius: 1919px;
+}
+
+.desktop .rectangle-2 {
+  top: 254px;
+  left: 281px;
+  position: absolute;
+  width: 878px;
+  height: 158px;
+  background-color: #d9d9d9;
+  border-radius: 1919px;
+}
+
+.desktop .rectangle-3 {
+  top: 442px;
+  left: 287px;
+  position: absolute;
+  width: 878px;
+  height: 158px;
+  background-color: #d9d9d9;
+  border-radius: 1919px;
+}
+
+.desktop .side-bar {
+  position: fixed;
   width: 248px;
   height: 1024px;
   top: 0;
@@ -122,34 +152,4 @@
   line-height: var(--m3-headline-small-line-height);
   white-space: nowrap;
   font-style: var(--m3-headline-small-font-style);
-}
-
-.desktop .rectangle {
-  top: 66px;
-  left: 287px;
-  position: absolute;
-  width: 878px;
-  height: 158px;
-  background-color: #d9d9d9;
-  border-radius: 1919px;
-}
-
-.desktop .rectangle-2 {
-  top: 254px;
-  left: 281px;
-  position: absolute;
-  width: 878px;
-  height: 158px;
-  background-color: #d9d9d9;
-  border-radius: 1919px;
-}
-
-.desktop .rectangle-3 {
-  top: 442px;
-  left: 287px;
-  position: absolute;
-  width: 878px;
-  height: 158px;
-  background-color: #d9d9d9;
-  border-radius: 1919px;
 }
