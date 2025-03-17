@@ -153,3 +153,20 @@
   white-space: nowrap;
   font-style: var(--m3-headline-small-font-style);
 }
+
+/* Remove underline and keep the original font & color */
+.no-style-link {
+  text-decoration: none;  /* Remove underline */
+  color: inherit;         /* Keep original text color */
+  font-family: inherit;   /* Keep original font */
+}
+
+/* Optional: Change color on hover */
+.no-style-link:hover {
+  color: yellow; /* Change text color when hovered */
+}
+
+/* Remove focus outline when clicked */
+.no-style-link:focus {
+  outline: none;
+}
