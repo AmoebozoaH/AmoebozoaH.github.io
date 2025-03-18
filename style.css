@@ -70,25 +70,55 @@
   filter: none; /* Ensures text is clear */
 }
 
-.main .side-bar {
-  position: fixed;
-  width: 248px;
-  height: 1024px;
-  top: -1px;
-  left: 0;
-  background-color: var(--mainscene);
-  border: 1px solid;
-  border-color: #000000;
-  box-shadow: 0px 4px 4px #00000040;
-  z-index: 2; /* Ensures sidebar is above the video */
+body {
+  background: white;
+  font-family: Inter, sans-serif;
 }
 
-.main .links-to-pages {
-  position: absolute;
-  width: 180px;
-  height: 229px;
-  top: 144px;
-  left: 18px;
+/* Sidebar */
+.Sidebar {
+  width: 248px;
+  height: 100vh;
+  background: #2A4474;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.MainPage {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.MainPage:hover,
+.MainPage.active {
+  font-weight: 1200;
+}
+
+.Sidebar-link {
+  display: block;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.Sidebar-link:hover,
+.Sidebar-link.active {
+  font-weight: 700;
+}
+
+.Line1 {
+  width: 101px;
+  height: 1px;
+  margin: 20px 0;
+  background: white;
 }
 
 .main .text-wrapper-3 {

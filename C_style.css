@@ -1,0 +1,142 @@
+/* General Page Styling */
+body {
+  background: white;
+  font-family: Inter, sans-serif;
+}
+
+/* Sidebar */
+.Sidebar {
+  width: 248px;
+  height: 100vh;
+  background: #2A4474;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.MainPage {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.MainPage:hover,
+.MainPage.active {
+  font-weight: 1200;
+}
+
+
+.Sidebar-link {
+  display: block;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.Sidebar-link:hover,
+.Sidebar-link.active {
+  font-weight: 700;
+}
+
+.Line1 {
+  width: 101px;
+  height: 1px;
+  margin: 20px 0;
+  background: white;
+}
+
+/* Experience Section */
+.ExperienceSection {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+.ExperienceSection h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+.Frame {
+  width: 1027px;
+  height: auto;
+  background: #D9D9D9;
+  border-radius: 23px;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.JobTitle {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: #2A4474;
+  padding: 5px 10px;
+  border-radius: 23px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.Company {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: #2A4474;
+  padding: 5px 10px;
+  border-radius: 23px;
+  width: fit-content;
+}
+
+.JobDate {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #2A4474;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 23px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.JobDescription {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.5;
+}
+
+/* Publication Section */
+.PublicationSection {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+.PublicationSection h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+.Publication {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+.Publication a {
+  color: #2A4474;
+  text-decoration: none;
+}
+
+.Publication a:hover {
+  text-decoration: underline;
+}
