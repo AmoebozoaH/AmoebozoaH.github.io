@@ -7,6 +7,7 @@
   height: 100%;
   overflow: hidden;
   z-index: -2; /* Ensures video is behind all content */
+  filter: blur(2px);
 }
 
 .video-container video {
@@ -19,33 +20,12 @@
   transform: translate(-50%, -50%);
 }
 
-/* Ensure content is visible and clear */
-.main {
-  position: relative;
-  z-index: 1; /* Keeps content above video */
-  background-color: transparent; /* No background to allow video */
-}
-
-.main .div {
-  background-color: transparent;
-  overflow: hidden;
-  width: 1440px;
-  height: 1024px;
-  position: relative;
-}
-
 .main .overlap-group {
   position: absolute;
   width: 1879px;
   height: 1057px;
   top: -12px;
   left: -145px;
-}
-
-.main .photo {
-  position: absolute;
-  width: 264px;
-  height: 248px;
 }
 
 /* Ensure text is clear and unblurred */
@@ -72,6 +52,17 @@
   letter-spacing: 0.04px;
 }
 
+/* Profile Image Styling */
+.image-container {
+  position: absolute;
+  top: 24px;
+  left: 288px;
+  width: 264.378px;
+  height: 248.182px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .main .text-wrapper-2 {
   font-size: 27px;
   letter-spacing: 0.03px;
@@ -83,7 +74,7 @@
   position: fixed;
   width: 248px;
   height: 1024px;
-  top: 0;
+  top: -1px;
   left: 0;
   background-color: var(--mainscene);
   border: 1px solid;
@@ -190,15 +181,4 @@
   font-style: var(--m3-headline-small-font-style);
 }
 
-/* Remove blur effect from background but keep clarity */
-.main .links-to-pages div,
-.main .text-wrapper-4,
-.main .text-wrapper-5,
-.main .text-wrapper-6,
-.main .text-wrapper-7,
-.main .text-wrapper-8 {
-  color: #ffffff;
-  font-family: "Roboto", Helvetica;
-  font-weight: 500;
-  filter: none; /* Ensures all text remains clear */
-}
+
