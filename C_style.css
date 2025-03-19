@@ -51,6 +51,14 @@ body {
   background: white;
 }
 
+html, body {
+  overflow-x: hidden; /* Hides horizontal scrolling */
+  overflow-y: auto;   /* Allows vertical scrolling */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* Experience Section */
 .ExperienceSection {
   margin-left: 280px;

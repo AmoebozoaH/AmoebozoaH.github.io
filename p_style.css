@@ -1,0 +1,219 @@
+
+html, body {
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    overflow-y: auto;   /* Allows vertical scrolling */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+/* Project container */
+.Project {
+    width: 1440px;
+    height: 2488px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+  }
+  
+  /* Rectangle element */
+  .Rectangle4 {
+    width: 127px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 184px;
+    background: #D9D9D9;
+  }
+  
+  /* Common styles for Body blocks */
+  .Body {
+    width: 1120px;
+    height: 452.9px;
+    position: absolute;
+    left: 287px;
+  }
+  
+  /* Unique positioning for each Body block */
+  .body-1 { top: 160px; }
+  .body-2 { top: 700px; }
+  .body-3 { top: 1239px; }
+  .body-4 { top: 1862px; }
+  
+  /* Project Name styling */
+  .ProjectName {
+    width: 326.21px;
+    height: 18.19px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #181717;
+    font-size: 18px;
+    font-family: Kadwa, sans-serif;
+    font-weight: 500;
+    line-height: 21.87px;
+    word-wrap: break-word;
+  }
+  
+  /* Description text styling */
+  .Description {
+    width: 356px;
+    height: 161.82px;
+    position: absolute;
+    left: 0;
+    top: 42.13px;
+    color: #181717;
+    font-size: 18px;
+    font-family: Kadwa, sans-serif;
+    font-weight: 400;
+    line-height: 21.87px;
+    word-wrap: break-word;
+  }
+  
+  /* Link styling */
+  .Link {
+    width: 326.21px;
+    height: 19.15px;
+    position: absolute;
+    left: 0;
+    top: 332.25px;
+    color: #181717;
+    font-size: 18px;
+    font-family: Kadwa, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 21.87px;
+    word-wrap: break-word;
+  }
+  
+  /* Separator line */
+  .Seperator {
+    width: 1115.06px;
+    height: 0;
+    position: absolute;
+    left: 7.91px;
+    top: 452.9px;
+    outline: 1.5px solid #181717;
+    outline-offset: -0.75px;
+  }
+  
+  /* Image styles */
+  .Myctophidae20221101FirstDraftTestDark1 {
+    width: 581.33px;
+    height: 436px;
+    position: absolute;
+    left: 767px;
+    top: 132px;
+  }
+  
+  .Land01SaberTiger40952730Lb21 {
+    width: 588px;
+    height: 392px;
+    position: absolute;
+    left: 767px;
+    top: 677px;
+  }
+  
+  .ChromModel1 {
+    width: 566px;
+    height: 418px;
+    position: absolute;
+    left: 778px;
+    top: 1862px;
+  }
+  
+  .Wings20223082491 {
+    width: 588px;
+    height: 331px;
+    position: absolute;
+    left: 767px;
+    top: 1239px;
+  }
+  
+  /* Section Titles */
+  .LegoProjects {
+    width: 312px;
+    height: 49px;
+    position: absolute;
+    left: 287px;
+    top: 59px;
+    color: black;
+    font-size: 40px;
+    font-family: Kadwa, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+  
+  .OtherProjects {
+    width: 312px;
+    height: 49px;
+    position: absolute;
+    left: 287px;
+    top: 1742px;
+    color: black;
+    font-size: 40px;
+    font-family: Kadwa, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+  
+
+/* Sidebar */
+.Sidebar {
+    width: 248px;
+    height: 100vh;
+    background: #2A4474;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-right: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  .MainPage {
+    color: white;
+    font-family: Kadwa, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .MainPage:hover,
+  .MainPage.active {
+    font-weight: 1200;
+  }
+  
+  
+  .Sidebar-link {
+    display: block;
+    color: white;
+    font-family: Kadwa, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .Sidebar-link:hover,
+  .Sidebar-link.active {
+    font-weight: 700;
+  }
+  
+  .Line1 {
+    width: 101px;
+    height: 1px;
+    margin: 20px 0;
+    background: white;
+  }
+  
+  html, body {
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    overflow-y: auto;   /* Allows vertical scrolling */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }

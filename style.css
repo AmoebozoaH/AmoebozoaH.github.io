@@ -20,6 +20,14 @@
   transform: translate(-50%, -50%);
 }
 
+html, body {
+  overflow-x: hidden; /* Hides horizontal scrolling */
+  overflow-y: auto;   /* Allows vertical scrolling */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .main .overlap-group {
   position: absolute;
   width: 1879px;
