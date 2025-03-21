@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
+
+/* Sidebar */
+/* Sidebar */
+.Sidebar {
+    width: 248px;
+    height: 100vh;
+    background: #2A4474;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-right: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  .MainPage {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Kadwa, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .MainPage:hover,
+  .MainPage.active {
+    font-weight: 1200;
+  }
+  
+  .Sidebar-link {
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Kadwa, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .Sidebar-link:hover,
+  .Sidebar-link.active {
+    font-weight: 700;
+  }
+  
+  .Line1 {
+    width: 101px;
+    height: 1px;
+    margin: 20px 0;
+    background: white;
+  }
+  
+
+/* Main Content */
+.content {
+    margin-left: 270px;
+    padding: 50px;
+    flex-grow: 1;
+    background: white;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+a {
+    color: #2A4474;
+    text-decoration: none;
+}
+
